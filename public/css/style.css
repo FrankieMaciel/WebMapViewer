@@ -1,0 +1,32 @@
+:root {
+    --background:#272933;
+    --vinheta:#515b6d;
+    --title: #ffffff;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    background-color: var(--background);
+    box-shadow: inset 0px 0px 80px 5px var(--vinheta);
+}
+
+#center {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+h1 {
+    color: var(--title);
+    font-weight: 100;
+}
+
+#titulo {
+    width: 80%;
+    justify-content: center;
+    display: flex;
+}
